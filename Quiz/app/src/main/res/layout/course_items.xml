@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    android:backgroundTint="#D1C4E9"
+    android:layout_marginVertical="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:layout_height="wrap_content">
+<com.google.android.material.card.MaterialCardView
+    android:text="@string/app_name"
+    android:textSize="24sp"
+    android:gravity="center"
+    style="@style/Widget.Material3.Button.OutlinedButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:padding="4dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/courseIcon1"
+            android:src="@drawable/ic_star"
+            android:padding="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="4dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/courseName"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textColor="#BA68C8"
+            android:gravity="center"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/courseIcon2"
+            android:src="@drawable/ic_star"
+            android:padding="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>
+</androidx.cardview.widget.CardView>

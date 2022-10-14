@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mohirdev.quiz.fragment.HomeFragment">
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_marginTop="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="checklist.json"
+        app:lottie_loop="true" />
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    android:layout_marginTop="24dp"
+    tools:listitem="@layout/subject_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

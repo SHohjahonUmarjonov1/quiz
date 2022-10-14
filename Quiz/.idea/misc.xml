@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/drawable/ic_next.xml" value="0.197" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/drawable/ic_star.xml" value="0.218" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout-v31/fragment_result.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/activity_main.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/course_items.xml" value="0.1782051282051282" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/error_items.xml" value="0.17606837606837608" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_courses.xml" value="0.17905982905982906" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_error.xml" value="0.17606837606837608" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_go.xml" value="0.17905982905982906" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_home.xml" value="0.17606837606837608" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_info.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_plan.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_quiz.xml" value="0.17606837606837608" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_result.xml" value="0.21458333333333332" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/fragment_splash.xml" value="0.16495726495726495" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/plan_items.xml" value="0.17905982905982906" />
+        <entry key="..\:/Users/Lenovo/Dasturlash/Kotlin/Quiz/app/src/main/res/layout/subject_items.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mohirdev.quiz.fragment.ResultFragment">
+
+    <com.google.android.material.circularreveal.CircularRevealLinearLayout
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="analytics.json"
+            app:lottie_loop="true" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:progressTint="@color/purple_500"
+            android:saveEnabled="false"
+            android:soundEffectsEnabled="true"
+            tools:rating="4" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="8dp"
+            android:gravity="center"
+            android:textColor="#673AB7"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/app_name" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/info"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginVertical="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Biz haqimizda"
+            android:textColor="#BA68C8"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/back"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginVertical="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Bosh Sahifa"
+            android:textColor="#BA68C8"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/errorList"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginVertical="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Noto'g'ri javoblarni ko'rish"
+            android:textColor="#BA68C8"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:cornerRadius="16dp"
+            tools:ignore="NewApi" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </com.google.android.material.circularreveal.CircularRevealLinearLayout>
+
+</FrameLayout>

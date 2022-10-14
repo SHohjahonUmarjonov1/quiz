@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info_fragment_text">Friends Study o\'quv markazi \n Biz bilan aloqa: +998 94 987 39 29 \n Manzil: Qoraqamish 2/4</string>
+    <string name="info_fragment_text_info">Nega aynan biz?\n*** O’z sohasining professionallari –yuqori malakali, qattiqqo’l murabbiylar jamoasi;\n*** 6-8 kishilik mini guruhdagi sifatli ta’lim;\n*** Har bir fandan haftada kamida 6 soatlik dars mashg’ulotlari;\n*** Siz uchun qulay vaqtdagi dars jadvali;\n*** Har oyning so’ngida DTM andozasidagi test sinovlari;\n*** Imtihonga ilmiy-psixologik jihatdan mukammal tayyorgarlik;\n*** Testlar bilan ishlash, ularning tuzilish texnikasi va sir-asrorlari to’g’risida qimmatli maslahatlar;\n*** Mustahkamlovchi mutlaqo BEPUL qo’shimcha darslar</string>
+</resources>
